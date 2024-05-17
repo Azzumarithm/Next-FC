@@ -1,0 +1,39 @@
+{
+  "version": "6",
+  "dialect": "sqlite",
+  "id": "2c26a467-133f-4e66-badf-044cd0a8dee1",
+  "prevId": "5946e4c4-c9bd-40a4-be18-e9f009677d8e",
+  "tables": {
+    "messages": {
+      "name": "messages",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "integer",
+          "primaryKey": true,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "message": {
+          "name": "message",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {},
+      "uniqueConstraints": {}
+    }
+  },
+  "enums": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {
+      "\"users\"": "\"messages\""
+    },
+    "columns": {}
+  }
+}
